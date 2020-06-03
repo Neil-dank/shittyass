@@ -2,6 +2,12 @@ package main
 
 import "fmt"
 
+var z string
+
 func main() {
-	fmt.Print("heyy yoo fuckers i am back from the dead this is me again i kn w you missed me", two, three, 62)
+	x := 42
+	fmt.Println(x)
+	fmt.Printf("%T\n", x)
+	fmt.Println(z)
+	fmt.Printf("%T\n", z)
 }
